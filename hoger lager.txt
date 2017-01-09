@@ -1,0 +1,28 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package opd3_hoger_lager;
+
+/**
+ *
+ * @author Bert
+ */
+public class Opd3_hoger_lager {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+
+        int cijfer = 8;
+
+        if (cijfer == 6) {
+            System.out.println("Cijfer is goed");
+        } else if (cijfer < 6) {
+            System.out.println("Cijfer is te laag");
+        } else {
+            System.out.println("Cijfer is te hoog");
+        }
+    
